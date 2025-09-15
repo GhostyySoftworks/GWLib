@@ -111,7 +111,7 @@ local GWImageManager = {
     }
 }
 do
-    local BaseURL = "https://raw.githubusercontent.com/GhostyySoftworks/GhostyyLib/refs/heads/main/"
+    local BaseURL = "https://raw.githubusercontent.com/GhostyySoftworks/GWLib/refs/heads/main/"
 
     local function RecursiveCreatePath(Path: string, IsFile: boolean?)
         if not isfolder or not makefolder then return end

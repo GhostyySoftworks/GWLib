@@ -82,10 +82,10 @@ local Library = {
         MainColor = Color3.fromRGB(10, 10, 10),
         AccentColor = Color3.fromRGB(0, 99, 177),
         OutlineColor = Color3.fromRGB(0, 99, 177),
-        FontColor = Color3.fromRGB(0, 99, 177),
+        FontColor = Color3.fromRGB(0, 97, 177),
         Font = Font.fromEnum(Enum.Font.Code),
         Red = Color3.fromRGB(0, 99, 177),
-        Dark = Color3.fromRGB(0, 99, 177),
+        Dark = Color3.fromRGB(10, 10, 10),
         White = Color3.fromRGB(0, 99, 177),
     },
 

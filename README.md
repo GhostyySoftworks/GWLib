@@ -1,6 +1,4 @@
-# Obsidian UI Library
-
-![Example Image](assets/Example.png?raw=true)
+# GWLib UI Library
 
 ## Table of Contents
 
@@ -38,10 +36,10 @@
 
 ## Getting Started
 
-To use the Obsidian UI Library, you need to assign it to a variable:
+To use the GWLib UI Library, you need to assign it to a variable:
 
 ```lua
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/deividcomsono/Obsidian/refs/heads/main/Library.lua"))()
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/deividcomsono/GWLib/refs/heads/main/Library.lua"))()
 ```
 
 Then, create a window:
@@ -58,7 +56,7 @@ local Window = Library:CreateWindow({
 
 ## Icon Information
 
-The Obsidian UI Library uses [Lucide](https://lucide.dev/) for Tab Icons and more.
+The GWLib UI Library uses [Lucide](https://lucide.dev/) for Tab Icons and more.
 
 ## Core Components
 
@@ -756,7 +754,7 @@ local WatermarkConnection = game:GetService('RunService').RenderStepped:Connect(
         FrameCounter = 0;
     end;
 
-    Library:SetWatermark(('Obsidian demo | %s fps | %s ms'):format(
+    Library:SetWatermark(('GWLib demo | %s fps | %s ms'):format(
         math.floor(FPS),
         math.floor(game:GetService('Stats').Network.ServerStatsItem['Data Ping']:GetValue())
     ));
@@ -865,7 +863,7 @@ Library:SetDPIScale(150) -- 150% scaling
 
 ```lua
 -- Create a basic window with common elements
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/deividcomsono/Obsidian/refs/heads/main/Library.lua"))()
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/deividcomsono/GWLib/refs/heads/main/Library.lua"))()
 
 local Window = Library:CreateWindow({
     Title = "My Script",
@@ -969,7 +967,7 @@ local MyColorPicker = ToggleWithKeybind:AddColorPicker("MyColorPicker", {
 ### Advanced Example with Tabboxes
 
 ```lua
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/deividcomsono/Obsidian/refs/heads/main/Library.lua"))()
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/deividcomsono/GWLib/refs/heads/main/Library.lua"))()
 
 local Window = Library:CreateWindow({
     Title = "Advanced Example",

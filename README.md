@@ -36,7 +36,7 @@
 
 ## Getting Started
 
-To use the GWLib UI Library, you need to assign it to a variable:
+To use the GW UI Library, you need to assign it to a variable:
 
 ```lua
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/GhostyySoftworks/GWLib/refs/heads/main/Library.lua"))()
@@ -56,7 +56,7 @@ local Window = Library:CreateWindow({
 
 ## Icon Information
 
-The GWLib UI Library uses [Lucide](https://lucide.dev/) for Tab Icons and more.
+The GW UI Library uses [Lucide](https://lucide.dev/) for Tab Icons and more.
 
 ## Core Components
 
@@ -754,7 +754,7 @@ local WatermarkConnection = game:GetService('RunService').RenderStepped:Connect(
         FrameCounter = 0;
     end;
 
-    Library:SetWatermark(('GWLib demo | %s fps | %s ms'):format(
+    Library:SetWatermark(('GW demo | %s fps | %s ms'):format(
         math.floor(FPS),
         math.floor(game:GetService('Stats').Network.ServerStatsItem['Data Ping']:GetValue())
     ));

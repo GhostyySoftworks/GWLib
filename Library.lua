@@ -81,7 +81,7 @@ local Library = {
         BackgroundColor = Color3.fromRGB(10, 10, 10),
         MainColor = Color3.fromRGB(10, 10, 10),
         AccentColor = Color3.fromRGB(0, 99, 177),
-        OutlineColor = Color3.fromRGB(10, 10, 10),
+        OutlineColor = Color3.fromRGB(0, 99, 177),
         FontColor = Color3.fromRGB(0, 99, 177),
         Font = Font.fromEnum(Enum.Font.Code),
         Red = Color3.fromRGB(0, 99, 177),
@@ -5278,9 +5278,7 @@ function Library:CreateWindow(WindowInfo)
         })
 
         MainFrame = New("Frame", {
-            BackgroundColor3 = function()
-                return Library:GetBetterColor(Library.Scheme.BackgroundColor, -1)
-            end,
+			BackgroundColor3 = "BackgroundColor",
             Name = "Main",
             Position = WindowInfo.Position,
             Size = WindowInfo.Size,
@@ -5495,9 +5493,7 @@ function Library:CreateWindow(WindowInfo)
         --// Bottom Bar \\--
         local BottomBar = New("Frame", {
             AnchorPoint = Vector2.new(0, 1),
-            BackgroundColor3 = function()
-                return Library:GetBetterColor(Library.Scheme.BackgroundColor, 4)
-            end,
+            BackgroundColor3 = "BackgroundColor",
             Position = UDim2.fromScale(0, 1),
             Size = UDim2.new(1, 0, 0, 20),
             Parent = MainFrame,
@@ -5505,9 +5501,7 @@ function Library:CreateWindow(WindowInfo)
         do
             local Cover = Library:MakeCover(BottomBar, "Top")
             Library:AddToRegistry(Cover, {
-                BackgroundColor3 = function()
-                    return Library:GetBetterColor(Library.Scheme.BackgroundColor, 4)
-                end,
+                BackgroundColor3 = "BackgroundColor",
             })
         end
         New("UICorner", {
@@ -5573,9 +5567,7 @@ function Library:CreateWindow(WindowInfo)
         --// Container \\--
         Container = New("Frame", {
             AnchorPoint = Vector2.new(1, 0),
-            BackgroundColor3 = function()
-                return Library:GetBetterColor(Library.Scheme.BackgroundColor, 1)
-            end,
+            BackgroundColor3 = "BackgroundColor",
             Name = "Container",
             Position = UDim2.new(1, 0, 0, 49),
             Size = UDim2.new(0.7, -1, 1, -70),

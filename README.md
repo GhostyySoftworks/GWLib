@@ -1,4 +1,4 @@
-# GWLib UI Library
+# GW UI Library
 
 ## Table of Contents
 
@@ -39,7 +39,7 @@
 To use the GWLib UI Library, you need to assign it to a variable:
 
 ```lua
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/deividcomsono/GWLib/refs/heads/main/Library.lua"))()
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/GhostyySoftworks/GWLib/refs/heads/main/Library.lua"))()
 ```
 
 Then, create a window:
@@ -863,7 +863,7 @@ Library:SetDPIScale(150) -- 150% scaling
 
 ```lua
 -- Create a basic window with common elements
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/deividcomsono/GWLib/refs/heads/main/Library.lua"))()
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/GhostyySoftworks/GWLib/refs/heads/main/Library.lua"))()
 
 local Window = Library:CreateWindow({
     Title = "My Script",
@@ -967,7 +967,7 @@ local MyColorPicker = ToggleWithKeybind:AddColorPicker("MyColorPicker", {
 ### Advanced Example with Tabboxes
 
 ```lua
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/deividcomsono/GWLib/refs/heads/main/Library.lua"))()
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/GhostyySoftworks/GWLib/refs/heads/main/Library.lua"))()
 
 local Window = Library:CreateWindow({
     Title = "Advanced Example",

@@ -80,13 +80,13 @@ local Library = {
     Scheme = {
         BackgroundColor = Color3.fromRGB(10, 10, 10),
         MainColor = Color3.fromRGB(10, 10, 10),
-        AccentColor = Color3.fromRGB(0, 99, 177),
-        OutlineColor = Color3.fromRGB(0, 99, 177),
+        AccentColor = Color3.fromRGB(178, 34, 34),
+        OutlineColor = Color3.fromRGB(178, 34, 34),
         FontColor = Color3.fromRGB(0, 97, 177),
         Font = Font.fromEnum(Enum.Font.Code),
-        Red = Color3.fromRGB(0, 99, 177),
+        Red = Color3.fromRGB(178, 34, 34),
         Dark = Color3.fromRGB(10, 10, 10),
-        White = Color3.fromRGB(0, 99, 177),
+        White = Color3.fromRGB(178, 34, 34),
     },
 
     Registry = {},

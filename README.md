@@ -346,7 +346,7 @@ local Input = Groupbox:AddInput("MyInput", {
 | ClearTextOnFocus | boolean  | true           | Whether to clear the text when focused                  |
 | Placeholder      | string   | ""             | Placeholder text when empty                             |
 | AllowEmpty       | boolean  | true           | Whether to allow empty input                            |
-| EmptyReset       | string   | "---"          | Value to use when empty if AllowEmpty is false          |
+| EmptyReset       | string   | ""          | Value to use when empty if AllowEmpty is false          |
 | MaxLength        | number   | nil            | Maximum character length                                |
 | Tooltip          | string   | nil            | Tooltip text shown on hover                             |
 | DisabledTooltip  | string   | nil            | Tooltip shown when disabled                             |
